@@ -10,5 +10,8 @@
     "test:dev": "cross-env NODE_ENV=dev.local node ./setting/set.env.js",
     "test:prod": "cross-env NODE_ENV=prod.local node ./setting/set.env.js",
     "reset": "cross-env NODE_ENV=none node ./setting/set.env.js"
+  },
+  "dependencies": {
+    "nestjs-zod": "^4.3.1"
   }
 }

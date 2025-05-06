@@ -5,7 +5,7 @@ export const MemberDetailCreateRequestSchema = z.object({
   providerKey: z.string().optional(),
   name: z.string(),
   password: z.string(),
-  email: z.string(),
+  email: z.string().email(),
 });
 
 export type MemberDetailCreateRequestType = z.infer<

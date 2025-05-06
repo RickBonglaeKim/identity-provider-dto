@@ -1,17 +1,16 @@
 ### success case
-POST {{host}}/member/signup HTTP/1.1
+POST {{host}}/signup HTTP/1.1
 Content-Type: application/json
 
 {
   "member": {
-    "clientId": "school-1",
-    "isAuthenticatedByOutside": false,
-    "isAgreedPolicy": true,
-    "isAgreedTerms": true
+    "isConsentedTermsAndConditions": true,
+    "isConsentedCollectionAndUsePersonalData": true,
+    "isConsentedMarketingUseAndInformationReceiving": false
   },
   "memberDetail": {
     "name": "rick",
-    "password": "1234",
-    "email": "kbl@i-screamarts.com"
+    "password": "test1234",
+    "email": "rick@test.com"
   }
 }

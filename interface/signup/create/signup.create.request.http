@@ -13,11 +13,5 @@ Content-Type: application/json
     "name": "rick",
     "password": "1234",
     "email": "kbl@i-screamarts.com"
-  },
-  "memberPhone": {
-    "isPrimary": true,
-    "countryCode": "kr",
-    "countryCallingCode": "353",
-    "userNumber": "01044471412"
   }
 }

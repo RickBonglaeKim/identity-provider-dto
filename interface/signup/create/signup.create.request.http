@@ -1,0 +1,23 @@
+### success case
+POST {{host}}/member/signup HTTP/1.1
+Content-Type: application/json
+
+{
+  "member": {
+    "clientId": "school-1",
+    "isAuthenticatedByOutside": false,
+    "isAgreedPolicy": true,
+    "isAgreedTerms": true
+  },
+  "memberDetail": {
+    "name": "rick",
+    "password": "1234",
+    "email": "kbl@i-screamarts.com"
+  },
+  "memberPhone": {
+    "isPrimary": true,
+    "countryCode": "kr",
+    "countryCallingCode": "353",
+    "userNumber": "01044471412"
+  }
+}

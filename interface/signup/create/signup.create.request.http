@@ -31,6 +31,6 @@ Content-Type: application/json
     "providerKey": "KAKAO",
     "name": "rick",
     "password": "test1234",
-    "email": "rick@test.com"
+    "email": "rick.kim@test.com"
   }
 }

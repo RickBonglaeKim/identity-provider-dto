@@ -1,0 +1,8 @@
+
+### success case
+GET {{host}}/oauth/authorize
+  ?client_id=qvpoDniytlVpPRYkbP4O/R80LebUdUB9
+  &client_secret=21ebe066e28c56cd3ec55641790f304ab6c32fe6095fe6a18f775fe09bafdb4b
+  &redirect_uri=http://test.com
+  &response_type=code
+  &scope=id_token name email

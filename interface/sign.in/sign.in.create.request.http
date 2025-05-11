@@ -1,0 +1,6 @@
+
+### success case
+GET {{host}}/signin
+  ?passport=oZzn-yh-HSn04YX6jSqveNmEUb276nH7J-o_EaECnqFGjxmGB9Fb93rMhvOI4Vhf
+  &email=rick@test.com
+  &password=test1234

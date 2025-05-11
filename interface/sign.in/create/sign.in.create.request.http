@@ -1,0 +1,14 @@
+
+### success case
+GET {{host}}/signin
+  ?passport=1pH44lufP_-g-L5TnFYSXJpCAliL3emh9E8pIbRRjZ3SWCYRS819R96lerH9Fm2o
+  &email=rick@test.com
+  &password=test1234
+
+
+### failure case
+GET {{host}}/signin
+  ?passport=_RXYUu1dQ8c.vS-Pn8aaXL9h0k~dmPHMO2DirptGl2QOCwVeWjZAtnhOH4iMpkmV
+  &email=rick@test.com
+  &password=tes0000
+

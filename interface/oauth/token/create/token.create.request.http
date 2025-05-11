@@ -1,0 +1,12 @@
+
+### success case
+POST {{host}}/oauth/token HTTP/1.1
+Content-Type: application/json
+
+{
+  "grant_type": "authorization_code",
+  "client_id": "qvpoDniytlVpPRYkbP4O/R80LebUdUB9",
+  "client_secret": "21ebe066e28c56cd3ec55641790f304ab6c32fe6095fe6a18f775fe09bafdb4b",
+  "redirect_uri": "https://google.com",
+  "code": "7d_pDDvsoBV1be49IGQOsINKir.imGp8"
+}

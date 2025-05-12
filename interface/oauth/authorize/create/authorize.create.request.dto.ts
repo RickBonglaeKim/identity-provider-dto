@@ -3,7 +3,6 @@ import { z } from 'zod';
 
 export const AuthorizeCreateRequestSchema = z.object({
   client_id: z.string().length(32),
-  client_secret: z.string().length(64),
   redirect_uri: z.string().url(),
   response_type: z.literal('code'),
   scope: z.string(),

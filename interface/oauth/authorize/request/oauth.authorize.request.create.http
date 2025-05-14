@@ -1,0 +1,8 @@
+
+### success case
+GET {{host}}/oauth/authorize
+  ?client_id=qvpoDniytlVpPRYkbP4O/R80LebUdUB9
+  &redirect_uri=https://google.com
+  &response_type=code
+  &scope=id_token name email
+  &state=sldfk3gfy534F

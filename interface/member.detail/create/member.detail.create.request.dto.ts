@@ -2,10 +2,11 @@ import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 
 export const MemberDetailCreateRequestSchema = z.object({
-  providerKey: z.string().optional(),
+  providerId: z.number(),
   name: z.string(),
   password: z.string(),
   email: z.string().email(),
+  duplicationType: z.string(),
 });
 
 export type MemberDetailCreateRequestType = z.infer<

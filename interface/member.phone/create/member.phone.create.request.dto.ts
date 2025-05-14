@@ -2,7 +2,7 @@ import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 
 export const MemberPhoneCreateRequestSchema = z.object({
-  isPrimary: z.boolean(),
+  memberPhoneId: z.number(),
   countryCallingCode: z.string(),
   phoneNumber: z.string(),
 });

@@ -1,7 +1,7 @@
 
 ### success case
 GET {{host}}/signin
-  ?passport=sBZxwd.sJEvhI~rNvsn6WaV.NN0BBgY.BNNWY66IhdxnS4OEN3HFn2eLzUTtsyOh
+  ?passport=KIrXdxlHT5o4l8qA5SUpMiblX8icN8oXFtVNUdeE2XzRDQ6dysG7P3k-3wJ~HOOs
   &email=rick@test.com
   &password=test1234
 

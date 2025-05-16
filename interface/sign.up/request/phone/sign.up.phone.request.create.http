@@ -15,7 +15,6 @@ Content-Type: application/json
     "email": "rick@test.com"
   },
   "memberPhone": {
-    "isPrimary": true,
     "countryCallingCode": "82",
     "phoneNumber": "01012349875"
   }

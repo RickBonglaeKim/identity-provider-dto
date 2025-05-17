@@ -1,0 +1,3 @@
+### success case
+GET {{host}}/verification/email
+  ?email=rick@test.com

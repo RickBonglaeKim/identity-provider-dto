@@ -1,13 +1,21 @@
 
 ### success case
-GET {{host}}/signin
-  ?passport=GISnH.Dmg1VPqJu2fUpjxbiIObwNpZbimyXlTJXtmw-0uH3nvqUtH9ZEEzwrzJ6g
-  &email=rick@test.com
-  &password=test1234
+POST {{host}}/signin HTTP/1.1
+Content-Type: application/json
+
+{
+  "passport": "D3ZtQfHLAR~4~wGWkW6cG4KHu6JA4WeLELaHil~_IgAImoPzwVINmaJUW7vOD5yh",
+  "email": "rick@test.com",
+  "password": "test1234"
+}
 
 
 ### failure case
-GET {{host}}/signin
-  ?passport=_RXYUu1dQ8c.vS-Pn8aaXL9h0k~dmPHMO2DirptGl2QOCwVeWjZAtnhOH4iMpkmV
-  &email=rick@test.com
-  &password=tes0000
+POST {{host}}/signin HTTP/1.1
+Content-Type: application/json
+
+{
+  "passport": "D3ZtQfHLAR~4~wGWkW6cG4KHu6JA4WeLELaHil~_IgAImoPzwVINmaJUW7vOD5yh",
+  "email": "rick@test.com",
+  "password": "test0000"
+}

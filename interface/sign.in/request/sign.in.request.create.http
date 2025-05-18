@@ -4,7 +4,7 @@ POST {{host}}/signin HTTP/1.1
 Content-Type: application/json
 
 {
-  "passport": "zB~HmJkzYp-fuKuqPA7LejV59R5qN6MASemv055pm6CYibPFxhBs6B09ch61gK7S",
+  "passport": "VZMmQGSUCvF7Rp9SMfMCrB5z6N_zRbi76F3x1WAt4RQvfZmWZQcURczLEXU_XLYB",
   "email": "rick@test.com",
   "password": "test1234"
 }
@@ -15,7 +15,7 @@ POST {{host}}/signin HTTP/1.1
 Content-Type: application/json
 
 {
-  "passport": "f7.zg5uf37ykBb.-I2gRahCNy5NwoQX.KQnP6fhVujV6ovyt~wyuA3RaSuAUgeXF",
+  "passport": "cFjQa5CkUTXxF4xF_blvMGCAHbS-P_m-lajyeLg4fL4WYRs15JJDk147l3IuszUh",
   "email": "rick@test.com",
   "password": "test0000"
 }

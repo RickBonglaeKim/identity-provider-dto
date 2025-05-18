@@ -8,12 +8,8 @@ export const MemberEntireRequestReadSchema = z.object({
   isConsentedMarketingUseAndInformationReceiving: z.boolean(),
   name: z.string(),
   email: z.string(),
-  phoneNumbers: z.array(
-    z.object({
-      countryCallingCode: z.string(),
-      phoneNumber: z.string(),
-    }),
-  ),
+  countryCallingCode: z.string(),
+  phoneNumber: z.string(),
 });
 
 export type MemberEntireRequestReadType = z.infer<
@@ -30,7 +26,8 @@ export class MemberEntireRequestRead extends createZodDto(
     isConsentedMarketingUseAndInformationReceiving: boolean,
     name: string,
     email: string,
-    phoneNumbers: [{ countryCallingCode: string; phoneNumber: string }],
+    countryCallingCode: string,
+    phoneNumber: string,
   ) {
     super();
     this.createAt = createAt;
@@ -41,6 +38,7 @@ export class MemberEntireRequestRead extends createZodDto(
       isConsentedMarketingUseAndInformationReceiving;
     this.name = name;
     this.email = email;
-    this.phoneNumbers = phoneNumbers;
+    this.countryCallingCode = countryCallingCode;
+    this.phoneNumber = phoneNumber;
   }
 }

@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "test:local": "cross-env NODE_ENV=local node ./setting/set.env.js",
-    "test:dev": "cross-env NODE_ENV=dev node ./setting/set.env.js",
+    "test:dev": "cross-env NODE_ENV=local.dev node ./setting/set.env.js",
     "test:prod": "cross-env NODE_ENV=prod node ./setting/set.env.js",
     "reset": "cross-env NODE_ENV=none node ./setting/set.env.js"
   },

@@ -1,6 +1,5 @@
 ### verify email code
-GET {{host}}/verification/phone/code
-  ?countryCallingCode=82
-  &phoneNumber=01012349874
-  &verificationCode=827868
+GET {{host}}/verification/email/code
+  ?email=rick.kim@test.com
+  &verificationCode=114770
 

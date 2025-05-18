@@ -1,0 +1,5 @@
+### verify email code
+GET {{host}}/verification/email/code
+  ?email=rick.kim@test.com
+  &verificationCode=827868
+

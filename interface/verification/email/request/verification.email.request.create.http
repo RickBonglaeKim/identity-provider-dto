@@ -1,0 +1,9 @@
+### verify email
+GET {{host}}/verification/phone
+  ?countryCallingCode=82
+  &phoneNumber=01012349874
+
+### get code
+GET {{host}}/verification/phone/get
+  ?countryCallingCode=82
+  &phoneNumber=01012349874

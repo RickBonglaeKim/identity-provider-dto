@@ -1,10 +1,13 @@
 
 ### success case
 POST {{host}}/signin HTTP/1.1
-Content-Type: application/x-www-form-urlencoded
+Content-Type: application/json
 
-passport=fOOv97a.YgJdiHv.a3-XrDHmJ4GmfvN3.TJbKRXI3DN1X_PLRk-IuhF28gaLoxf5&email=rick@test.com&password=test1234
-
+{
+  "passport": "8pFB5R0aLYSYmUF2oQdMSdEz3g_nrRCZPtA1ObMLLAvatGkSJ6radgO-UGGOvyfv",
+  "email": "rick@test.com",
+  "password": "test1234"
+}
 
 
 ### failure case

@@ -1,7 +1,7 @@
 import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 
-export const MemberEntireRequestReadSchema = z.object({
+export const MemberEntireResponseReadSchema = z.object({
   createAt: z.string(),
   isConsentedTermsAndConditions: z.boolean(),
   isConsentedCollectionAndUsePersonalData: z.boolean(),
@@ -16,12 +16,12 @@ export const MemberEntireRequestReadSchema = z.object({
     .nullable(),
 });
 
-export type MemberEntireRequestReadType = z.infer<
-  typeof MemberEntireRequestReadSchema
+export type zMemberEntireResponseReadType = z.infer<
+  typeof MemberEntireResponseReadSchema
 >;
 
-export class MemberEntireRequestRead extends createZodDto(
-  MemberEntireRequestReadSchema,
+export class MemberEntireResponseRead extends createZodDto(
+  MemberEntireResponseReadSchema,
 ) {
   constructor(
     createAt: string,
@@ -30,7 +30,7 @@ export class MemberEntireRequestRead extends createZodDto(
     isConsentedMarketingUseAndInformationReceiving: boolean,
     name: string,
     email: string,
-    phone: { countryCallingCode: string; phoneNumber: string },
+    phone: { countryCallingCode: string; phoneNumber: string } | null,
   ) {
     super();
     this.createAt = createAt;

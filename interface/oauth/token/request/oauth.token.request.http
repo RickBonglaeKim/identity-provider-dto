@@ -6,6 +6,6 @@ Content-Type: application/json
 {
   "grant_type": "authorization_code",
   "client_id": "qvpoDniytlVpPRYkbP4O/R80LebUdUB9",
-  "redirect_uri": "http://localhost:3000/test/callback",
-  "code": "D9wI~obdBV3fbTy~vAp~qlPmIjM3y._U"
+  "redirect_uri": "https://localhost:3000/test/callback",
+  "code": "XpwZiOS2X9LosM2T9_4sjJzMcxHe_HKS"
 }

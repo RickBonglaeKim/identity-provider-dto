@@ -4,7 +4,7 @@ POST {{host}}/signin HTTP/1.1
 Content-Type: application/json
 
 {
-  "passport": "ScqDCh.Fro-VL6tuGqRQ5gMi0vkvwckUaDQv0SKPz~GgND-XzFmkaGnL8TmEoBWF",
+  "passport": "3AGFD8mXNc4VqFhGGtxuPRcIfzSR-0Z_69iFW3.l13W3_YhJgh-KO8.d9H4_AwlJ",
   "email": "rick@test.com",
   "password": "test1234"
 }

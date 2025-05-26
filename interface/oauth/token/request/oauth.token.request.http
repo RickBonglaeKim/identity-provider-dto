@@ -7,5 +7,5 @@ Content-Type: application/json
   "grant_type": "authorization_code",
   "client_id": "qvpoDniytlVpPRYkbP4O/R80LebUdUB9",
   "redirect_uri": "https://localhost:3000/test/callback",
-  "code": "XpwZiOS2X9LosM2T9_4sjJzMcxHe_HKS"
+  "code": "nDxAGJOcju8CrF6kyIy1vuFJ.-0AGP99"
 }

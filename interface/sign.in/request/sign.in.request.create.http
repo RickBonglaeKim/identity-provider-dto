@@ -4,14 +4,14 @@ POST {{host}}/signin HTTP/1.1
 Content-Type: application/json
 
 {
-  "passport": "GtLzI-Iwr65xBd1mXBfdq8rdcCcJ.kOCwjCiNThU.1263Ors5KM2nelWiaLH88GK",
+  "passport": "ScqDCh.Fro-VL6tuGqRQ5gMi0vkvwckUaDQv0SKPz~GgND-XzFmkaGnL8TmEoBWF",
   "email": "rick@test.com",
   "password": "test1234"
 }
 
 
 ### failure case
-GET {{host}}/signin/U2FsdGVkX1%2FZ0Hs6MKniA7bO1jYrmmpwOIsEDXp3yduJvqZRrzFahuS0A0q11Ts3XEJvu0OxmihnzIGgqKkTbpofBF27a3x9zGK8Bj%2F5nPrO6wE5eBWRLS1fgb7UIrVqfLz4UWYNvMMS17SXjW5Jw3oJeairmUNeZFF5JuiORp9a8ywq5d51FOsdWTD8vbNkixnIi6caOQKeTMKj%2BkXH5xyWlBMRQFzG6uaRAFmhs%2BM%3D
+GET {{host}}/signin/
 
 
 

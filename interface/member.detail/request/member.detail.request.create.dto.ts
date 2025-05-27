@@ -1,12 +1,16 @@
 import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
+import { PROVIDER } from 'dto/enum/provider.enum';
+import { DUPLICATION_TYPE } from 'dto/enum/duplication.type.enum';
 
 export const MemberDetailRequestCreateSchema = z.object({
-  providerId: z.number().default(101),
-  name: z.string(),
-  password: z.string(),
-  email: z.string().email(),
-  duplicationType: z.string().default('DUPLICATION_TYPE.NONE'),
+  providerId: z.nativeEnum(PROVIDER),
+  name: z.string().min(2).max(32),
+  email: z.string().email().max(64),
+  password: z.string().min(8).max(256),
+  duplicationType: z
+    .literal(DUPLICATION_TYPE.NONE)
+    .default(DUPLICATION_TYPE.NONE),
 });
 
 export type MemberDetailRequestCreateType = z.infer<

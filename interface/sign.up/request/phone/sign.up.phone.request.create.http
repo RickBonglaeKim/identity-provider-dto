@@ -13,10 +13,34 @@ Content-Type: application/json
     "providerId": 101,
     "name": "rick",
     "password": "test1234",
-    "email": "rick-4@test.com"
+    "email": "rick-002@test.com"
   },
   "memberPhone": {
     "countryCallingCode": "82",
-    "phoneNumber": "01012349876"
+    "phoneNumber": "01012349877"
+  }
+}
+
+
+### success case
+POST {{host}}/signup/phone HTTP/1.1
+Content-Type: application/json
+
+{
+  "member": {
+    "isConsentedTermsAndConditions": true,
+    "isConsentedCollectionAndUsePersonalData": true,
+    "isConsentedMarketingUseAndInformationReceiving": false
+  },
+  "memberDetail": {
+    "providerId": 401,
+    "memberProviderKey": "401.1234567890",
+    "name": "rick",
+    "password": "test1234",
+    "email": "rick-002@test.com"
+  },
+  "memberPhone": {
+    "countryCallingCode": "82",
+    "phoneNumber": "01012349877"
   }
 }

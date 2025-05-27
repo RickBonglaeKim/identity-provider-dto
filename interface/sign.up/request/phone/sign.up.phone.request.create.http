@@ -10,12 +10,13 @@ Content-Type: application/json
     "isConsentedMarketingUseAndInformationReceiving": false
   },
   "memberDetail": {
+    "providerId": 101,
     "name": "rick",
     "password": "test1234",
-    "email": "rick@test.com"
+    "email": "rick-4@test.com"
   },
   "memberPhone": {
     "countryCallingCode": "82",
-    "phoneNumber": "01012349875"
+    "phoneNumber": "01012349876"
   }
 }

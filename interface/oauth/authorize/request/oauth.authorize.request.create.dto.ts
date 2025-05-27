@@ -8,7 +8,7 @@ export const OauthAuthorizeRequestCreateSchema = z.object({
   scope: z.string(),
   state: z.string().optional(),
   nonce: z.string().optional(),
-  sign_url: z.string().url().optional(),
+  location_url: z.string().url().optional(),
 });
 
 export type OauthAuthorizeRequestCreateType = z.infer<

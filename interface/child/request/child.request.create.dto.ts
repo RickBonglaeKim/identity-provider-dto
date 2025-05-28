@@ -1,11 +1,11 @@
+import { GENDER } from 'dto/enum/gender.enum';
 import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 
 const ChildRequestCreateSchema = z.object({
-  memberId: z.number(),
   name: z.string(),
   birthDay: z.string(),
-  gender: z.union([z.literal('GENDER.MALE'), z.literal('GENDER.FEMALE')]),
+  gender: z.nativeEnum(GENDER),
 });
 
 export type ChildRequestCreateType = z.infer<typeof ChildRequestCreateSchema>;

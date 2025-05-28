@@ -3,13 +3,13 @@ import { MemberRequestCreateSchema } from 'dto/interface/member/request/member.r
 import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 
-const SignupRequestCreateSchema = z.object({
+const SignUpRequestCreateSchema = z.object({
   member: MemberRequestCreateSchema,
   memberDetail: MemberDetailRequestCreateSchema,
 });
 
-export type SignupRequestCreateType = z.infer<typeof SignupRequestCreateSchema>;
+export type SignUpRequestCreateType = z.infer<typeof SignUpRequestCreateSchema>;
 
-export class SignupRequestCreate extends createZodDto(
-  SignupRequestCreateSchema,
+export class SignUpRequestCreate extends createZodDto(
+  SignUpRequestCreateSchema,
 ) {}

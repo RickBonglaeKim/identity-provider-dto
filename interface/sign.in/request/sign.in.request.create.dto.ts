@@ -1,14 +1,14 @@
 import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 
-const SigninRequestCreateSchema = z.object({
+const SignInRequestCreateSchema = z.object({
   passport: z.string().length(64),
   email: z.string().email(),
   password: z.string(),
 });
 
-export type SigninRequestCreateType = z.infer<typeof SigninRequestCreateSchema>;
+export type SignInRequestCreateType = z.infer<typeof SignInRequestCreateSchema>;
 
-export class SigninRequestCreate extends createZodDto(
-  SigninRequestCreateSchema,
+export class SignInRequestCreate extends createZodDto(
+  SignInRequestCreateSchema,
 ) {}

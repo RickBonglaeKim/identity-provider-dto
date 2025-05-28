@@ -33,14 +33,14 @@ Content-Type: application/json
     "isConsentedMarketingUseAndInformationReceiving": false
   },
   "memberDetail": {
-    "providerId": 401,
-    "memberProviderKey": "401.1234567890",
-    "name": "rick",
-    "password": "test1234",
-    "email": "rick-002@test.com"
+    "providerId": 301,
+    "memberProviderKey": "301.4273393725",
+    "name": "%EA%B9%80%EB%B4%89%EB%9E%98",
+    "password": "301.4273393725",
+    "email": "rick.kim@daum.net"
   },
   "memberPhone": {
     "countryCallingCode": "82",
-    "phoneNumber": "01012349877"
+    "phoneNumber": "1044471412"
   }
 }

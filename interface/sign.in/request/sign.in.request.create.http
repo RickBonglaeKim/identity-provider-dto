@@ -4,14 +4,14 @@ POST {{host}}/signIn HTTP/1.1
 Content-Type: application/json
 
 {
-  "passport": "YFbA4druXKWIQuYL6or33SgGjR156BLpJrg1bJhlC~ho3iRFsdPr6FROHrZ0rN7q",
+  "passport": "FZV6b2U-qnbWyoUlrlr3Ea6MY4YPZZEko.-ZIJX-Wm32c0-IlM4EAAKjlZfolT8L",
   "email": "rick-01@test.com",
   "password": "test1234"
 }
 
 
 ### failure case
-GET {{host}}/signIn/U2FsdGVkX1%2BP9BWOStRG2PrJP52QD4nAWSuFH4%2Bn95nEw8hi4BBNX%2FtBadkl%2B%2F7hZsUWfrUOm3iKtw%2FBn9%2F%2FZsbR9BXhpAQfnEsH3BcpsJ7CGrSEmoLCO64DDOM6s4dp6MCspkJ3vudfW%2Bqq928OCSVjzt4LX7mdrgFd%2FfLcWo2TAjJCuXlwvsbuusZS4q1d%2B8Gq%2FzUMsrVPeQ5Gx8w50eBOLzqwllqbNMYCfWK00zA%3D
+GET {{host}}/signIn/U2FsdGVkX1%2FYX6EQM7OjDmIDbKKDPfvLqEjYh6ZMb5YswR5xvzfEoKd9B8CXgVbMCYTfwz8KwYN44rE3giUJDEnPziDEQqgtOQixzjSxSxEId7mZIzBqXvT2V6%2BVN0eb7t45WgJaD42q9oJEIrKnyjsGJ0pvP9wrKbwwUdcAAD5t7jDsyX6TeQk5oLXSrB%2BqilwVLX1eB1Mcv6b1IO0PnNlGVIPAVd%2FCvO4MqAfq1nU%3D
 
 
 

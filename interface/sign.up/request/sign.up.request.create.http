@@ -18,7 +18,27 @@ Content-Type: application/json
 }
 
 
-### success case
+### success case with passport
+POST {{host}}/signUp HTTP/1.1
+Content-Type: application/json
+
+{
+  "passport": "HSkLEEAh~ucaOO24pEMxIswjVflha_ReIMncNy1bUONLGJqQ_1k.GKdXGlAgyRlU",
+  "member": {
+    "isConsentedTermsAndConditions": true,
+    "isConsentedCollectionAndUsePersonalData": true,
+    "isConsentedMarketingUseAndInformationReceiving": false
+  },
+  "memberDetail": {
+    "providerId": 101,
+    "name": "rick-03",
+    "password": "test1234",
+    "email": "rick-03@test.com"
+  }
+}
+
+
+### success case with memberProviderKey
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
 
@@ -33,6 +53,27 @@ Content-Type: application/json
     "memberProviderKey": "301.1234567890",
     "name": "rick",
     "password": "test1234",
-    "email": "rick-02@test.com"
+    "email": "rick-11@test.com"
+  }
+}
+
+
+### success case with memberProviderKey and passport
+POST {{host}}/signUp HTTP/1.1
+Content-Type: application/json
+
+{
+  "passport": "TRgEpEg5MzQKzmDhrP.wsA0VQDQAJlZjusg66HfgjSaqT-YI9o4JSnt~shRu.I6C",
+  "member": {
+    "isConsentedTermsAndConditions": true,
+    "isConsentedCollectionAndUsePersonalData": true,
+    "isConsentedMarketingUseAndInformationReceiving": false
+  },
+  "memberDetail": {
+    "providerId": 301,
+    "memberProviderKey": "301.1234567890",
+    "name": "rick-12",
+    "password": "test1234",
+    "email": "rick-12@test.com"
   }
 }

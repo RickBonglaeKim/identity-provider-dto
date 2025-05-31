@@ -12,6 +12,3 @@ Content-Type: application/json
 
 ### failure case
 GET {{host}}/signIn/
-
-
-

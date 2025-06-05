@@ -63,17 +63,17 @@ POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
 
 {
-  "passport": "GSK8G5JiAgGxAvZqU85Zdm7kU6~xkEz4Aslo2WMW~2oQU.MBU-5gpbu5b-LqeCIf",
+  "passport": "PXV-fNDZSEo~NY9lurFGy9U._KhuLTwU5foDDyvDO8gdnu78-7Sl1Px5hUL_~Sd_",
   "member": {
     "isConsentedTermsAndConditions": true,
     "isConsentedCollectionAndUsePersonalData": true,
     "isConsentedMarketingUseAndInformationReceiving": true
   },
   "memberDetail": {
-    "providerId": 401,
-    "memberProviderKey": "401.101231458700315251451",
+    "providerId": 402,
+    "memberProviderKey": "402.000367.c3a7962c4cf14b6fb0c6499acdbd3ef4.0426",
     "name": "Rick%20Bonglae",
-    "password": "401.101231458700315251451",
-    "email": "kbl0724@gmail.com"
+    "password": "402.000367.c3a7962c4cf14b6fb0c6499acdbd3ef4.0426",
+    "email": "j6j2tr8cd2@privaterelay.appleid.com"
   }
 }

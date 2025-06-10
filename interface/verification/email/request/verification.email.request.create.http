@@ -1,7 +1,9 @@
 ### verify email
 GET {{host}}/verification/email
   ?email=rick.kim@test.com
+passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
 
 ### get email code
 GET {{host}}/verification/email/get
   ?email=rick.kim@test.com
+passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o

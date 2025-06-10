@@ -1,5 +1,5 @@
 ### verify email code
 GET {{host}}/verification/email/code
   ?email=rick.kim@test.com
-  &verificationCode=114770
-
+  &verificationCode=401444
+passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o

@@ -2,7 +2,7 @@
 ### success case with passport
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
-passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
+passport: NKCI34vMqD8.MW0a.xCuRpU_X9O3.TrMGRdNcjaLJg6-QaZRVlIb-r7GFuXQyn.g
 
 {
   "member": {
@@ -12,9 +12,9 @@ passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
   },
   "memberDetail": {
     "providerId": 101,
-    "name": "rick-09",
+    "name": "rick-10",
     "password": "test1234",
-    "email": "rick-09@test.com"
+    "email": "rick-10@test.com"
   }
 }
 

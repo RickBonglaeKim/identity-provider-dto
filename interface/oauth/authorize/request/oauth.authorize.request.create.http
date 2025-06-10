@@ -7,5 +7,5 @@ GET {{host}}/oauth/authorize
   &scope=id_token name email phone child
   &state=sldfk3gfy534F
 
-# https://localhost:3000/signin/provider/apple?passport=dE2FT808SnoQ0PB.2EwDGJ1HbzLG63mz4Q1-Eu7cojhL_imIA20GBIeXQ~QdbIBw
-# https://system-idp-auth.dev.iscreamarts.com/signin/provider/apple?passport=svNQEZdhmcfDn9bQEsAcODV2nf7VrIvr4e0XLdAJj7nA7YcVmGU6PKyttvGdzjqv
+# https://localhost:3000/signin/provider/kakao?passport=
+# https://system-idp-auth.dev.iscreamarts.com/signin/provider/google?passport=EK~p8IadKuaQ6976Arz2UuEePZNCfVb5LLqnCV4M_J23XkiwMKoCrBahRBmxGJeJ

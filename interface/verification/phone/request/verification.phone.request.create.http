@@ -1,9 +1,9 @@
 ### verify phone
 GET {{host}}/verification/phone
   ?countryCallingCode=82
-  &phoneNumber=01012349874
+  &phoneNumber=01044471412
 
 ### get phone code
 GET {{host}}/verification/phone/get
   ?countryCallingCode=82
-  &phoneNumber=01012349874
+  &phoneNumber=01044471412

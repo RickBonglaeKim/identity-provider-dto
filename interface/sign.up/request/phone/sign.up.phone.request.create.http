@@ -2,6 +2,7 @@
 ### success case
 POST {{host}}/signUp/phone HTTP/1.1
 Content-Type: application/json
+passport: 2c7xS-ZJaNUoTX_1CKFX47W1DrCQ-df3P8xxr.leWhd3.EWwXFJR0-sJ5GqEYQ_r
 
 {
   "member": {
@@ -13,11 +14,11 @@ Content-Type: application/json
     "providerId": 101,
     "name": "rick",
     "password": "test1234",
-    "email": "rick-002@test.com"
+    "email": "rick-004@test.com"
   },
   "memberPhone": {
     "countryCallingCode": "82",
-    "phoneNumber": "01012349877"
+    "phoneNumber": "01012359879"
   }
 }
 
@@ -25,9 +26,9 @@ Content-Type: application/json
 ### success case with passport
 POST {{host}}/signUp/phone HTTP/1.1
 Content-Type: application/json
+passport: 2c7xS-ZJaNUoTX_1CKFX47W1DrCQ-df3P8xxr.leWhd3.EWwXFJR0-sJ5GqEYQ_r
 
 {
-  "passport": "RgmsN8iN0nUZo7NtI0XHvw8VRWkNIvFm_z6dswEN~.1Xf-4iz33nnXU_1gALa9lT",
   "member": {
     "isConsentedTermsAndConditions": true,
     "isConsentedCollectionAndUsePersonalData": true,
@@ -50,6 +51,7 @@ Content-Type: application/json
 ### success case with memberProviderKey
 POST {{host}}/signUp/phone HTTP/1.1
 Content-Type: application/json
+passport: 2c7xS-ZJaNUoTX_1CKFX47W1DrCQ-df3P8xxr.leWhd3.EWwXFJR0-sJ5GqEYQ_r
 
 {
   "member": {

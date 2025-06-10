@@ -1,29 +1,10 @@
 
-### success case
-POST {{host}}/signUp/rx HTTP/1.1
-Content-Type: application/json
-
-{
-  "member": {
-    "isConsentedTermsAndConditions": true,
-    "isConsentedCollectionAndUsePersonalData": true,
-    "isConsentedMarketingUseAndInformationReceiving": false
-  },
-  "memberDetail": {
-    "providerId": 101,
-    "name": "rick-07",
-    "password": "test1234",
-    "email": "rick-07@test.com"
-  }
-}
-
-
 ### success case with passport
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
+passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
 
 {
-  "passport": "iwR2C0v_UZCUD5YztBnL.zYd02aaNhA9OQtjaI13nHNo74hUgJrf9_qauiuhohw_",
   "member": {
     "isConsentedTermsAndConditions": true,
     "isConsentedCollectionAndUsePersonalData": true,
@@ -31,9 +12,9 @@ Content-Type: application/json
   },
   "memberDetail": {
     "providerId": 101,
-    "name": "rick-08",
+    "name": "rick-09",
     "password": "test1234",
-    "email": "rick-08@test.com"
+    "email": "rick-09@test.com"
   }
 }
 
@@ -41,6 +22,7 @@ Content-Type: application/json
 ### success case with memberProviderKey
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
+passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
 
 {
   "member": {
@@ -61,9 +43,9 @@ Content-Type: application/json
 ### success case with memberProviderKey and passport
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
+passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
 
 {
-  "passport": "PXV-fNDZSEo~NY9lurFGy9U._KhuLTwU5foDDyvDO8gdnu78-7Sl1Px5hUL_~Sd_",
   "member": {
     "isConsentedTermsAndConditions": true,
     "isConsentedCollectionAndUsePersonalData": true,

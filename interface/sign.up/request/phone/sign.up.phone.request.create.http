@@ -2,7 +2,7 @@
 ### success case
 POST {{host}}/signUp/phone HTTP/1.1
 Content-Type: application/json
-passport: 2c7xS-ZJaNUoTX_1CKFX47W1DrCQ-df3P8xxr.leWhd3.EWwXFJR0-sJ5GqEYQ_r
+passport: AHx8GQeF1dCQt2hwEIvP1k0Dt_3DkDfzvk6ZUCuCXVvFIdEk6HKinoBHgeselFXf
 
 {
   "member": {
@@ -46,7 +46,6 @@ passport: 2c7xS-ZJaNUoTX_1CKFX47W1DrCQ-df3P8xxr.leWhd3.EWwXFJR0-sJ5GqEYQ_r
   }
 }
 
-6
 
 ### success case with memberProviderKey
 POST {{host}}/signUp/phone HTTP/1.1

@@ -1,0 +1,6 @@
+const SUCCESS_HTTP_STATUS = {
+  DATA_DUPLICATED: 251,
+  DATA_NOT_FOUND: 299,
+} as const;
+
+export default SUCCESS_HTTP_STATUS;

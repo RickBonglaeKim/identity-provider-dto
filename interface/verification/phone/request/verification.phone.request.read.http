@@ -2,5 +2,5 @@
 GET {{host}}/verification/phone/code
   ?countryCallingCode=82
   &phoneNumber=01044471412
-  &verificationCode=486429
-passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
+  &verificationCode=351289
+passport: Iv1RQHS_E8jTXH0xD0bW9ZDrYm7QfJ0IzEysH6wzxlAwOtJD.H-XfGGZSr9M7rpV

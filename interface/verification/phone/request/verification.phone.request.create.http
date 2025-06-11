@@ -1,11 +1,11 @@
 ### verify phone
 GET {{host}}/verification/phone
   ?countryCallingCode=82
-  &phoneNumber=01044471412
-passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
+  &phoneNumber=010-4447-1412
+passport: qNAXQe6PCUyiT5PL~UnwM_UXIFFor81FvqO7LsHaYox6~ojTDToG.dIRGd1qdgT9
 
 ### get phone code
 GET {{host}}/verification/phone/get
   ?countryCallingCode=82
-  &phoneNumber=01044471412
-passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
+  &phoneNumber=010-4447-1412
+passport: qNAXQe6PCUyiT5PL~UnwM_UXIFFor81FvqO7LsHaYox6~ojTDToG.dIRGd1qdgT9

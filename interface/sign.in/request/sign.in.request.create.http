@@ -2,7 +2,7 @@
 ### success case
 POST {{host}}/signIn HTTP/1.1
 Content-Type: application/json
-passport: aeO36WEEs~jxzqBHp-3JbQDrIPttMGf1TxrqPqUvs9PkjvObqQtShoe_1G3mEK7O
+passport: EYk-iZ2lICIrW1QcGG~lM5MkRCS.d6v_0zKNLMRS-OdP_cr62i1ZAJrDxv87UGc_
 
 {
   "email": "rick.kim@daum.net",

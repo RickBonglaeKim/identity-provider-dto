@@ -9,7 +9,7 @@ export const MemberDetailRequestCreateSchema = z
     memberProviderKey: z.string().optional(),
     name: z.string().min(2).max(32),
     email: z.string().email().max(64),
-    password: z.string().min(8).max(256),
+    password: z.string().min(8).max(256).optional(),
     duplicationType: z
       .literal(DUPLICATION_TYPE.NONE)
       .default(DUPLICATION_TYPE.NONE),
@@ -26,7 +26,18 @@ export const MemberDetailRequestCreateSchema = z
     },
     {
       message:
-        'memberProviderKey is required when providerId is not I_SCREAM_ART',
+        'The memberProviderKey is required when the providerId is not I_SCREAM_ART',
+    },
+  )
+  .refine(
+    (data) => {
+      if (data.providerId === PROVIDER.I_SCREAM_ART && !data.password) {
+        return false;
+      }
+      return true;
+    },
+    {
+      message: 'The password is required when the providerId is I_SCREAM_ART',
     },
   );
 

@@ -7,5 +7,5 @@ GET {{host}}/oauth/authorize
   &scope=id_token name email phone child
   &state=sldfk3gfy534F
 
-# https://localhost:3000/signin/provider/kakao?passport=
-# https://system-idp-auth.dev.iscreamarts.com/signin/provider/google?passport=EK~p8IadKuaQ6976Arz2UuEePZNCfVb5LLqnCV4M_J23XkiwMKoCrBahRBmxGJeJ
+# https://localhost:3000/signin/provider/apple?passport=
+# https://system-idp-auth.dev.iscreamarts.com/signin/provider/apple?passport=

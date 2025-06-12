@@ -2,7 +2,7 @@
 ### success case with passport
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
-passport: ~Bi4zzMF_KoYYPGMT-QKry7F~q-GG.9nKvllx7H03zl-yi77TaapyHUmHr.fGe3z
+passport: .jYRrzzdxF.AaTFlgGwzSju3mNY8IvyCMK3hro.TboMdii50gQSyD1QVKiiUSueH
 
 {
   "member": {
@@ -22,7 +22,7 @@ passport: ~Bi4zzMF_KoYYPGMT-QKry7F~q-GG.9nKvllx7H03zl-yi77TaapyHUmHr.fGe3z
 ### success case with memberProviderKey
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
-passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
+passport: .jYRrzzdxF.AaTFlgGwzSju3mNY8IvyCMK3hro.TboMdii50gQSyD1QVKiiUSueH
 
 {
   "member": {
@@ -32,10 +32,9 @@ passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
   },
   "memberDetail": {
     "providerId": 301,
-    "memberProviderKey": "301.1234567890",
+    "memberProviderKey": "301.123456789000",
     "name": "rick",
-    "password": "test1234",
-    "email": "rick-11@test.com"
+    "email": "rick-13@test.com"
   }
 }
 

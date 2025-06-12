@@ -10,10 +10,7 @@ export const MemberDetailRequestCreateSchema = z
     name: z.string().min(2).max(32),
     email: z.string().email().max(64),
     password: z.string().min(8).max(256).optional(),
-    duplicationType: z
-      .nativeEnum(DUPLICATION_TYPE)
-      .optional()
-      .default(DUPLICATION_TYPE.NONE),
+    duplicationType: z.nativeEnum(DUPLICATION_TYPE).optional(),
   })
   .refine(
     (data) => {

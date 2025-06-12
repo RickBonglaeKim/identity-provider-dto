@@ -2,7 +2,7 @@
 ### success case with passport
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
-passport: .jYRrzzdxF.AaTFlgGwzSju3mNY8IvyCMK3hro.TboMdii50gQSyD1QVKiiUSueH
+passport: PIo~SGaaY~2RhiNsoEYE7jhdpEAgrDVSG75yoCl79fd46A5wsCykdyUu9rlS0_l5
 
 {
   "member": {

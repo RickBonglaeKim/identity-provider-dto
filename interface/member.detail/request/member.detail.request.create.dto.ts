@@ -2,7 +2,6 @@ import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 import { PROVIDER } from 'dto/enum/provider.enum';
 import { DUPLICATION_TYPE } from 'dto/enum/duplication.type.enum';
-import PartialKey from 'dto/interface/partial.key.type';
 
 export const MemberDetailRequestCreateSchema = z
   .object({
@@ -12,7 +11,8 @@ export const MemberDetailRequestCreateSchema = z
     email: z.string().email().max(64),
     password: z.string().min(8).max(256).optional(),
     duplicationType: z
-      .literal(DUPLICATION_TYPE.NONE)
+      .nativeEnum(DUPLICATION_TYPE)
+      .optional()
       .default(DUPLICATION_TYPE.NONE),
   })
   .refine(
@@ -42,9 +42,8 @@ export const MemberDetailRequestCreateSchema = z
     },
   );
 
-export type MemberDetailRequestCreateType = PartialKey<
-  z.infer<typeof MemberDetailRequestCreateSchema>,
-  'duplicationType'
+export type MemberDetailRequestCreateType = z.infer<
+  typeof MemberDetailRequestCreateSchema
 >;
 
 export class MemberDetailRequestCreate extends createZodDto(

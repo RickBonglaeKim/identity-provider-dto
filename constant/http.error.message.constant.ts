@@ -1,4 +1,4 @@
-const ERROR_MESSAGE = {
+const HTTP_ERROR_MESSAGE = {
   PASSPORT_NOT_FOUND: 'The passport was not found',
   USER_NOT_FOUND: 'The user was not found',
   COOKIE_NOT_FOUND: 'The cookie was not found',
@@ -10,4 +10,4 @@ const ERROR_MESSAGE = {
   PASSWORD_NOT_UPDATED: 'The password was not updated',
 } as const;
 
-export default ERROR_MESSAGE;
+export default HTTP_ERROR_MESSAGE;

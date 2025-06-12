@@ -2,7 +2,7 @@ import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 import { PROVIDER } from 'dto/enum/provider.enum';
 import { DUPLICATION_TYPE } from 'dto/enum/duplication.type.enum';
-import PartialKey from 'apps/client-auth/src/type/partial.key.type';
+import PartialKey from 'dto/interface/partial.key.type';
 
 export const MemberDetailRequestCreateSchema = z
   .object({

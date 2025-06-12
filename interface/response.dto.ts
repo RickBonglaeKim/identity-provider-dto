@@ -5,5 +5,5 @@ export default class CommonResponse<T> {
     this.timeStamp = Date.now();
     this.language = language;
   }
-  resultData: T | null;
+  resultData: T | null = null;
 }

@@ -1,5 +1,6 @@
 const HTTP_ERROR_MESSAGE = {
   PASSPORT_NOT_FOUND: 'The passport was not found',
+  MEMBER_NOT_FOUND: 'The member was not found',
   USER_NOT_FOUND: 'The user was not found',
   COOKIE_NOT_FOUND: 'The cookie was not found',
   PASSWORD_TOKEN_NOT_FOUND: 'The password token to reset was not found',

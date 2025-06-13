@@ -1,7 +1,6 @@
 
 ### success case
 GET {{host}}/verification/find/id
-  ?name=rick.kim
+  ?name=김봉래
   &countryCallingCode=82
-  &phoneNumber=1044471414
-passport: aeO36WEEs~jxzqBHp-3JbQDrIPttMGf1TxrqPqUvs9PkjvObqQtShoe_1G3mEK7O
+  &phoneNumber=1044471412

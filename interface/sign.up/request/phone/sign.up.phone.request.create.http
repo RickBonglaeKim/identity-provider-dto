@@ -26,23 +26,23 @@ passport: AHx8GQeF1dCQt2hwEIvP1k0Dt_3DkDfzvk6ZUCuCXVvFIdEk6HKinoBHgeselFXf
 ### success case with passport
 POST {{host}}/signUp/phone HTTP/1.1
 Content-Type: application/json
-passport: 2c7xS-ZJaNUoTX_1CKFX47W1DrCQ-df3P8xxr.leWhd3.EWwXFJR0-sJ5GqEYQ_r
+passport: nbunmg6Z8mEiuIprP6u_-9Yi9GKkDTcAuV9o3ZAeczASHmrhm0xLuAp23hH81d04
 
 {
   "member": {
     "isConsentedTermsAndConditions": true,
     "isConsentedCollectionAndUsePersonalData": true,
-    "isConsentedMarketingUseAndInformationReceiving": false
+    "isConsentedMarketingUseAndInformationReceiving": true
   },
   "memberDetail": {
     "providerId": 101,
-    "name": "rick-103",
+    "name": "rick-001",
     "password": "test1234",
-    "email": "rick-103@test.com"
+    "email": "rick-001@test.com"
   },
   "memberPhone": {
     "countryCallingCode": "82",
-    "phoneNumber": "01012349879"
+    "phoneNumber": "01011110001"
   }
 }
 
@@ -50,7 +50,7 @@ passport: 2c7xS-ZJaNUoTX_1CKFX47W1DrCQ-df3P8xxr.leWhd3.EWwXFJR0-sJ5GqEYQ_r
 ### success case with memberProviderKey
 POST {{host}}/signUp/phone HTTP/1.1
 Content-Type: application/json
-passport: 2c7xS-ZJaNUoTX_1CKFX47W1DrCQ-df3P8xxr.leWhd3.EWwXFJR0-sJ5GqEYQ_r
+passport: ZHp-8Fet1sLQjH_UES-Rl2nyJD4qbGQj5~O9ONo87nDE4CBMXWc6.EYQhez7ziH1
 
 {
   "member": {
@@ -62,11 +62,10 @@ passport: 2c7xS-ZJaNUoTX_1CKFX47W1DrCQ-df3P8xxr.leWhd3.EWwXFJR0-sJ5GqEYQ_r
     "providerId": 301,
     "memberProviderKey": "301.4273393725",
     "name": "%EA%B9%80%EB%B4%89%EB%9E%98",
-    "password": "301.4273393725",
     "email": "rick.kim@daum.net"
   },
   "memberPhone": {
     "countryCallingCode": "82",
-    "phoneNumber": "1044471414"
+    "phoneNumber": "1044471412"
   }
 }

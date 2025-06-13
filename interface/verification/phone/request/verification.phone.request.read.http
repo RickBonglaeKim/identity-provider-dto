@@ -1,6 +1,6 @@
 ### verify email code
 GET {{host}}/verification/phone/code
   ?countryCallingCode=82
-  &phoneNumber=01044471412
-  &verificationCode=351289
-passport: Iv1RQHS_E8jTXH0xD0bW9ZDrYm7QfJ0IzEysH6wzxlAwOtJD.H-XfGGZSr9M7rpV
+  &phoneNumber=01011110002
+  &verificationCode=639763
+passport: YvOjqFsCxyCH81ZXDjLrgXyrnjlF4GYD-3pt9vT448U1xgrE8GL3M7ZdZmpTtG-d

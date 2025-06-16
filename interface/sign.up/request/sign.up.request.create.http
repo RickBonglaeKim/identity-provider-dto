@@ -2,13 +2,17 @@
 ### success case with passport
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
-passport: PIo~SGaaY~2RhiNsoEYE7jhdpEAgrDVSG75yoCl79fd46A5wsCykdyUu9rlS0_l5
+passport: 0okcguNVABjIyPjhOITOhXbCLEYwHYXg11gLqa6R5Zsch9wO5mjV.nwS8goyFB3K
 
 {
   "member": {
-    "isConsentedTermsAndConditions": true,
+    "isConsentedArtBonbonTermsAndConditions": true,
+    "isConsentedILandTermsAndConditions": true,
+    "isConsentedGalleryBonbonTermsAndConditions": true,
     "isConsentedCollectionAndUsePersonalData": true,
-    "isConsentedMarketingUseAndInformationReceiving": false
+    "isConsentedUseAiSketchService": true,
+    "isConsentedOver14Years": true,
+    "isConsentedEventAndInformationReceiving": false,
   },
   "memberDetail": {
     "providerId": 101,
@@ -26,9 +30,13 @@ passport: .jYRrzzdxF.AaTFlgGwzSju3mNY8IvyCMK3hro.TboMdii50gQSyD1QVKiiUSueH
 
 {
   "member": {
-    "isConsentedTermsAndConditions": true,
-    "isConsentedCollectionAndUsePersonalData": true,
-    "isConsentedMarketingUseAndInformationReceiving": false
+    "isConsentedArtBonbonTermsAndConditions": true,
+    "isConsentedILandTermsAndConditions": true,
+    "isConsentedGalleryBonbonTermsAndConditions": false,
+    "isConsentedCollectionAndUsePersonalData": false,
+    "isConsentedUseAiSketchService": false,
+    "isConsentedOver14Years": false,
+    "isConsentedEventAndInformationReceiving": false,
   },
   "memberDetail": {
     "providerId": 301,
@@ -46,9 +54,13 @@ passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
 
 {
   "member": {
-    "isConsentedTermsAndConditions": true,
-    "isConsentedCollectionAndUsePersonalData": true,
-    "isConsentedMarketingUseAndInformationReceiving": true
+    "isConsentedArtBonbonTermsAndConditions": true,
+    "isConsentedILandTermsAndConditions": true,
+    "isConsentedGalleryBonbonTermsAndConditions": false,
+    "isConsentedCollectionAndUsePersonalData": false,
+    "isConsentedUseAiSketchService": false,
+    "isConsentedOver14Years": false,
+    "isConsentedEventAndInformationReceiving": false,
   },
   "memberDetail": {
     "providerId": 402,

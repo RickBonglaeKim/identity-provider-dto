@@ -3,9 +3,13 @@ import { z } from 'zod';
 
 export const MemberEntireResponseReadSchema = z.object({
   createAt: z.string(),
-  isConsentedTermsAndConditions: z.boolean(),
+  isConsentedArtBonbonTermsAndConditions: z.boolean(),
+  isConsentedILandTermsAndConditions: z.boolean(),
+  isConsentedGalleryBonbonTermsAndConditions: z.boolean(),
   isConsentedCollectionAndUsePersonalData: z.boolean(),
-  isConsentedMarketingUseAndInformationReceiving: z.boolean(),
+  isConsentedUseAiSketchService: z.boolean(),
+  isConsentedOver14Years: z.boolean(),
+  isConsentedEventAndInformationReceiving: z.boolean(),
   name: z.string(),
   email: z.string(),
   phone: z
@@ -25,20 +29,31 @@ export class MemberEntireResponseRead extends createZodDto(
 ) {
   constructor(
     createAt: string,
-    isConsentedTermsAndConditions: boolean,
+    isConsentedArtBonbonTermsAndConditions: boolean,
+    isConsentedILandTermsAndConditions: boolean,
+    isConsentedGalleryBonbonTermsAndConditions: boolean,
     isConsentedCollectionAndUsePersonalData: boolean,
-    isConsentedMarketingUseAndInformationReceiving: boolean,
+    isConsentedUseAiSketchService: boolean,
+    isConsentedOver14Years: boolean,
+    isConsentedEventAndInformationReceiving: boolean,
     name: string,
     email: string,
     phone: { countryCallingCode: string; phoneNumber: string } | null,
   ) {
     super();
     this.createAt = createAt;
-    this.isConsentedTermsAndConditions = isConsentedTermsAndConditions;
+    this.isConsentedArtBonbonTermsAndConditions =
+      isConsentedArtBonbonTermsAndConditions;
+    this.isConsentedILandTermsAndConditions =
+      isConsentedILandTermsAndConditions;
+    this.isConsentedGalleryBonbonTermsAndConditions =
+      isConsentedGalleryBonbonTermsAndConditions;
     this.isConsentedCollectionAndUsePersonalData =
       isConsentedCollectionAndUsePersonalData;
-    this.isConsentedMarketingUseAndInformationReceiving =
-      isConsentedMarketingUseAndInformationReceiving;
+    this.isConsentedUseAiSketchService = isConsentedUseAiSketchService;
+    this.isConsentedOver14Years = isConsentedOver14Years;
+    this.isConsentedEventAndInformationReceiving =
+      isConsentedEventAndInformationReceiving;
     this.name = name;
     this.email = email;
     this.phone = phone;

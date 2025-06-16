@@ -2,23 +2,27 @@
 ### success case
 POST {{host}}/signUp/phone HTTP/1.1
 Content-Type: application/json
-passport: AHx8GQeF1dCQt2hwEIvP1k0Dt_3DkDfzvk6ZUCuCXVvFIdEk6HKinoBHgeselFXf
+passport: 0okcguNVABjIyPjhOITOhXbCLEYwHYXg11gLqa6R5Zsch9wO5mjV.nwS8goyFB3K
 
 {
   "member": {
-    "isConsentedTermsAndConditions": true,
+    "isConsentedArtBonbonTermsAndConditions": true,
+    "isConsentedILandTermsAndConditions": true,
+    "isConsentedGalleryBonbonTermsAndConditions": true,
     "isConsentedCollectionAndUsePersonalData": true,
-    "isConsentedMarketingUseAndInformationReceiving": false
+    "isConsentedUseAiSketchService": true,
+    "isConsentedOver14Years": true,
+    "isConsentedEventAndInformationReceiving": false
   },
   "memberDetail": {
     "providerId": 101,
-    "name": "rick",
+    "name": "rick-01",
     "password": "test1234",
-    "email": "rick-004@test.com"
+    "email": "rick-01@test.com"
   },
   "memberPhone": {
     "countryCallingCode": "82",
-    "phoneNumber": "01012359879"
+    "phoneNumber": "01088880001"
   }
 }
 
@@ -30,9 +34,13 @@ passport: nbunmg6Z8mEiuIprP6u_-9Yi9GKkDTcAuV9o3ZAeczASHmrhm0xLuAp23hH81d04
 
 {
   "member": {
-    "isConsentedTermsAndConditions": true,
+    "isConsentedArtBonbonTermsAndConditions": true,
+    "isConsentedILandTermsAndConditions": true,
+    "isConsentedGalleryBonbonTermsAndConditions": true,
     "isConsentedCollectionAndUsePersonalData": true,
-    "isConsentedMarketingUseAndInformationReceiving": true
+    "isConsentedUseAiSketchService": true,
+    "isConsentedOver14Years": true,
+    "isConsentedEventAndInformationReceiving": true
   },
   "memberDetail": {
     "providerId": 101,
@@ -54,9 +62,13 @@ passport: ZHp-8Fet1sLQjH_UES-Rl2nyJD4qbGQj5~O9ONo87nDE4CBMXWc6.EYQhez7ziH1
 
 {
   "member": {
-    "isConsentedTermsAndConditions": true,
+    "isConsentedArtBonbonTermsAndConditions": true,
+    "isConsentedILandTermsAndConditions": true,
+    "isConsentedGalleryBonbonTermsAndConditions": true,
     "isConsentedCollectionAndUsePersonalData": true,
-    "isConsentedMarketingUseAndInformationReceiving": false
+    "isConsentedUseAiSketchService": true,
+    "isConsentedOver14Years": true,
+    "isConsentedEventAndInformationReceiving": false
   },
   "memberDetail": {
     "providerId": 301,

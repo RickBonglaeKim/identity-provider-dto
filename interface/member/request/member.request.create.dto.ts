@@ -2,9 +2,13 @@ import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 
 export const MemberRequestCreateSchema = z.object({
-  isConsentedTermsAndConditions: z.boolean(),
+  isConsentedArtBonbonTermsAndConditions: z.boolean(),
+  isConsentedILandTermsAndConditions: z.boolean(),
+  isConsentedGalleryBonbonTermsAndConditions: z.boolean(),
   isConsentedCollectionAndUsePersonalData: z.boolean(),
-  isConsentedMarketingUseAndInformationReceiving: z.boolean(),
+  isConsentedUseAiSketchService: z.boolean(),
+  isConsentedOver14Years: z.boolean(),
+  isConsentedEventAndInformationReceiving: z.boolean(),
 });
 
 export type MemberRequestCreateType = z.infer<typeof MemberRequestCreateSchema>;

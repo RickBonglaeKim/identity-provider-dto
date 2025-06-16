@@ -4,6 +4,9 @@ import { z } from 'zod';
 const VerificationPhoneRequestCreateSchema = z.object({
   countryCallingCode: z.string().max(3),
   phoneNumber: z.string().max(16),
+  isWillVerifyDuplication: z
+    .preprocess((val) => val === 'true', z.boolean())
+    .default(false),
 });
 
 export type VerificationPhoneRequestCreateType = z.infer<

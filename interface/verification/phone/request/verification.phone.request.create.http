@@ -2,7 +2,9 @@
 GET {{host}}/verification/phone
   ?countryCallingCode=82
   &phoneNumber=01011110002
-passport: YvOjqFsCxyCH81ZXDjLrgXyrnjlF4GYD-3pt9vT448U1xgrE8GL3M7ZdZmpTtG-d
+  &isWillVerifyDuplication=true
+passport: DN8ChIBoGY4hZ_tWuoNphMOPp1uDalyn6JGIYCycN5aiQXKLREBQB4epA82WHIgp
+
 
 ### get phone code
 GET {{host}}/verification/phone/get

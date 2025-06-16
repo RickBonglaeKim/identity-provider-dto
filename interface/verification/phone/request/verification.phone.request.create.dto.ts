@@ -6,7 +6,7 @@ const VerificationPhoneRequestCreateSchema = z.object({
   phoneNumber: z.string().max(16),
   isWillVerifyDuplication: z
     .preprocess((val) => val === 'true', z.boolean())
-    .default(false),
+    .optional(),
 });
 
 export type VerificationPhoneRequestCreateType = z.infer<

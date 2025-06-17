@@ -2,9 +2,9 @@
 ### success case
 POST {{host}}/signIn HTTP/1.1
 Content-Type: application/json
-passport: EYk-iZ2lICIrW1QcGG~lM5MkRCS.d6v_0zKNLMRS-OdP_cr62i1ZAJrDxv87UGc_
+passport: NQlPewtgwjW1GxOfp8mHm5Og3swGMK_5w2dHvcGF-xjoHYFc.cHyNGAE6rkNN-ow
 
 {
-  "email": "rick.kim@daum.net",
-  "password": "12345678"
+  "email": "rick-01@test.com",
+  "password": "test1234"
 }

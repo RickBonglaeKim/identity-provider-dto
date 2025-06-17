@@ -1,0 +1,10 @@
+
+### success case
+POST {{host}}/member/withdrawal HTTP/1.1
+Content-Type: application/json
+Cookie: iScreamArts-IDP=U2FsdGVkX1%2BXyy6kA09vyk7IM%2FuEVB1WopD0B9tU5VCuTTkLLu1fOFhyjAQdkDMfGuljLeEjCU4UzeA57H%2FBMqCLmVhdTL6IgGuCzkDLTXRq2lQmnw%2B99XxMTviQjSb1
+
+{
+  "withdrawalReason": "WITHDRAWAL.CONTENTS",
+  "reasonExplanation": "이용할 만한 컨텐츠가 없었습니다."
+}

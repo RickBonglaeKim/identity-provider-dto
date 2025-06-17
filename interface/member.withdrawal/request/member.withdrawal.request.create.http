@@ -2,7 +2,7 @@
 ### success case
 POST {{host}}/member/withdrawal HTTP/1.1
 Content-Type: application/json
-Cookie: iScreamArts-IDP=U2FsdGVkX1%2BXyy6kA09vyk7IM%2FuEVB1WopD0B9tU5VCuTTkLLu1fOFhyjAQdkDMfGuljLeEjCU4UzeA57H%2FBMqCLmVhdTL6IgGuCzkDLTXRq2lQmnw%2B99XxMTviQjSb1
+Cookie: iScreamArts-IDP=U2FsdGVkX19NB7S4KZYY%2BrQq3KLsaN3H%2FakUhYskrJ1Br3G6gEc4vIIPtJMFM0hMD2O9MM7kU%2BoqaXZhLD9K1VqhLkyo9lAW44UAOQYqvtJgrfLHq390bwqunTUkPfx1
 
 {
   "withdrawalReason": "WITHDRAWAL.CONTENTS",

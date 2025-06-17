@@ -2,7 +2,7 @@
 ### success case
 POST {{host}}/signIn HTTP/1.1
 Content-Type: application/json
-passport: VPYPe4epL1Ah1POp0NeqzNIeh6--bqH0Y0Dlu8jfEF9Xin21_uUvFkaT-7CoJ8u9
+passport: PV.x7gqbqJJ1q.n.U_KCfv~P~n1JbDoUCNGYFAJoDFgWQIIPamGf0hBUoN0RJLdx
 
 {
   "email": "rick-01@test.com",

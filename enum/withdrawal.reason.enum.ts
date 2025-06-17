@@ -1,0 +1,9 @@
+export const WITHDRAWAL = {
+  CONTENTS: 'WITHDRAWAL.CONTENTS',
+  PRICE: 'WITHDRAWAL.PRICE',
+  SERVICE: 'WITHDRAWAL.SERVICE',
+  DRAWING: 'WITHDRAWAL.DRAWING',
+  ETC: 'WITHDRAWAL.ETC',
+} as const;
+
+export type WithdrawalReasons = (typeof WITHDRAWAL)[keyof typeof WITHDRAWAL];

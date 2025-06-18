@@ -9,3 +9,12 @@ GET {{host}}/oauth/authorize
 
 # https://localhost:3000/signin/provider/kakao?passport=
 # https://system-idp-auth.dev.iscreamarts.com/signin/provider/apple?passport=
+
+
+### success case
+GET {{host}}/oauth/authorize
+  ?client_id=qvpoDniytlVpPRYkbP4O/R80LebUdUB9
+  &redirect_uri=https://dev-oauth-artst.artbonbon.co.kr/oauth/callback
+  &response_type=code
+  &scope=id_token name email phone child
+  &state=sldfk3gfy534F

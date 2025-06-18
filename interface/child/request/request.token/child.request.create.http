@@ -1,0 +1,11 @@
+
+### success case
+POST {{host}}/child/token HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer U2FsdGVkX18JWTrHEqKPZKFsBV1zMVPHwWFR1Hk1jW2lfjdrxwV+ujTtr0XxnXsOUoKTD7vnAI/ZQHN38wYvM/1gsoKjuUIQvQDEKleCl1drYNoAzO6RyMtR2IRdA2fxh4MT97H5hBDtxJJ7Bz5oA5WYW3RN9ksYaJ02CmeNyYoMLHj3CIqBk7eO8igV/rD8
+
+{
+  "name": "딸1",
+  "birthDay": "2010-05-30",
+  "gender": "GENDER.FEMALE"
+}

@@ -1,12 +1,16 @@
+import { GENDER, Genders } from 'dto/enum/gender.enum';
 import { createZodDto } from 'nestjs-zod';
 import { z } from 'zod';
 
 export const ChildResponseSchema = z.object({
   id: z.number(),
   createdAt: z.string(),
-  name: z.string().nullable(),
-  birthDay: z.string().nullable(),
-  gender: z.string().nullable(),
+  name: z.string(),
+  birthDay: z.string(),
+  gender: z.string(),
+  map: z.object({
+    artBonBonStudentId: z.string().nullable(),
+  }),
 });
 
 export type ChildResponseType = z.infer<typeof ChildResponseSchema>;
@@ -15,9 +19,10 @@ export class ChildResponse extends createZodDto(ChildResponseSchema) {
   constructor(
     id: number,
     createdAt: string,
-    name: string | null,
-    birthDay: string | null,
-    gender: string | null,
+    name: string,
+    birthDay: string,
+    gender: string,
+    artBonBonStudentId: string | null,
   ) {
     super();
     this.id = id;
@@ -25,5 +30,6 @@ export class ChildResponse extends createZodDto(ChildResponseSchema) {
     this.name = name;
     this.birthDay = birthDay;
     this.gender = gender;
+    this.map.artBonBonStudentId = artBonBonStudentId;
   }
 }

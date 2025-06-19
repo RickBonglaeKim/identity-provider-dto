@@ -11,6 +11,19 @@ Content-Type: application/json
 }
 
 
+
+### success case
+POST {{host}}/oauth/token HTTP/1.1
+Content-Type: application/json
+
+{
+  "grant_type": "authorization_code",
+  "client_id": "qvpoDniytlVpPRYkbP4O/R80LebUdUB9", 
+  "redirect_uri": "http://www.twinkle-i-nara.com/auth.do",
+  "code": "y5.tPF-oJQVc9nhMcEsfEVGxVL-oW1m1"
+}
+
+
 # {
 #   "language": "ko",
 #   "timeStamp": 1750217492309,

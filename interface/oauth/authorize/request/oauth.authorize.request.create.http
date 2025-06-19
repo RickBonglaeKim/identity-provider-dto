@@ -14,7 +14,8 @@ GET {{host}}/oauth/authorize
 ### success case
 GET {{host}}/oauth/authorize
   ?client_id=qvpoDniytlVpPRYkbP4O/R80LebUdUB9
-  &redirect_uri=https://dev-oauth-artst.artbonbon.co.kr/oauth/callback
+  &redirect_uri=http://www.twinkle-i-nara.com/auth.do
   &response_type=code
   &scope=id_token name email phone child
-  &state=sldfk3gfy534F
+
+# https://system-idp-auth.dev.iscreamarts.com/oauth/authorize?client_id=qvpoDniytlVpPRYkbP4O/R80LebUdUB9&redirect_uri=http://www.twinkle-i-nara.com/auth.do&response_type=code&scope=id_token name email phone child

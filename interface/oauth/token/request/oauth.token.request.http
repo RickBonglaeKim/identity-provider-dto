@@ -7,7 +7,7 @@ Content-Type: application/json
   "grant_type": "authorization_code",
   "client_id": "qvpoDniytlVpPRYkbP4O/R80LebUdUB9", 
   "redirect_uri": "https://localhost:3000/test/callback",
-  "code": "OxmBhVzjAGT-Oh99GOFhck~ZT8rM~wkm"
+  "code": "i~kEVCEUEvOiF3SPPv1QlWq6zUcXjoEX"
 }
 
 
@@ -18,21 +18,7 @@ Content-Type: application/json
 
 {
   "grant_type": "authorization_code",
-  "client_id": "qvpoDniytlVpPRYkbP4O/R80LebUdUB9", 
+  "client_id": "qvpoDniytlVpPRYkbP4O/R80LebUdUB9",
   "redirect_uri": "http://www.twinkle-i-nara.com/auth.do",
-  "code": "6XiI0dSwf~Kl9e~1SdsxBnnaqiYj5kxZ"
+  "code": "JIug~RMJtpaiwuuBUGKtStKzirJUb1j6"
 }
-
-
-# {
-#   "language": "ko",
-#   "timeStamp": 1750217492309,
-#   "resultData": {
-#     "token_type": "bearer",
-#     "access_token": "U2FsdGVkX18JWTrHEqKPZKFsBV1zMVPHwWFR1Hk1jW2lfjdrxwV+ujTtr0XxnXsOUoKTD7vnAI/ZQHN38wYvM/1gsoKjuUIQvQDEKleCl1drYNoAzO6RyMtR2IRdA2fxh4MT97H5hBDtxJJ7Bz5oA5WYW3RN9ksYaJ02CmeNyYoMLHj3CIqBk7eO8igV/rD8",
-#     "id_token": "eyJhbGciOiJSUzI1NiJ9.eyJuYW1lIjoicmljay0wMSIsImVtYWlsIjoicmljay0wMUB0ZXN0LmNvbSIsInBob25lIjpbeyJjb3VudHJ5Q2FsbGluZ0NvZGUiOiI4MiIsIm51bWJlciI6IjEwODg4ODAwMDEifV0sImNoaWxkIjpbXSwiaXNzIjoiYXV0aC5kZXYuaXNjcmVhbWFydHMuY29tIiwiYXVkIjoicXZwb0RuaXl0bFZwUFJZa2JQNE8vUjgwTGViVWRVQjkiLCJzdWIiOiIxMTAxLjExMDAwMDAwMDAwMDAwMDAxMiIsImlhdCI6MTc1MDIxNzQ5MiwiZXhwIjoxNzUwMjYwNjkyfQ.e8mNaFs_q2kQ8ewwzMs4s1FOHABwhIeprRch5tXShpdWyUzb1Tba52ChD2aYHEGzZLDqgZgVTlwvWBaBnFUvhPpj-Tnd_JimxZBJW3Mg9t2qVdHfM5DIapPMd1vL5zHw6rWja2et_epRzstPoo2U6JtdzA_ngYYHEA149keMfTRRIdGLYuR1i702ZhO65EtI_H1AvKFw5yHxG4--6SIU_yfS7ruuxm0om284rEQvQX213JtF5JwJsCRZAbfUAiODxkgqgqrO63VRgMZLJgXHjgdwGR7D_5fn6vhM9wJ7aR7-Of6fXUIW_aAnnqXtx2US2khO7r7ftZlfs71HAj-DfA",
-#     "expires_in": "43200",
-#     "refresh_token": "5M78d1brAInKxS+AJVqe4cZFmAs3SSVnk5InSTUpjjh3xdogWQq8ZMQzBhX4wa1Sb9e/Z/nVc7eQiIN9i/jONcahLmpJzN2DfFZ9E4MNpTruPCq24KFNMRp44f8vOpFzFPI4qia+hwZFxe8phQr/zH7dAOP9qEMl7k8reXqcanALHGH77S3uKXvmgN/SEIwvklJqUgxCcSxAxGxeD/0L7jMXzvezg2Cp/Rr9W7sf9kGFQRosGfd44BDiN9jF6dK3/S9mRf0tC4554jY+FqwNRj10n63mx49UZFuljiF2RhnXO6xEO5NwMnKfJQGoKazP3QoQV4htHAwUuiuMPcXBA3kPzHZzQz8/jVVZcfIUJ/qo/GqGP2z87I/OnoM+qVeTnvm8rxXQz/K2zYY7vjkr3qgzPe1R840UEM5VG80f1hYFX3WC/+PWugs7RE9+TJYa/cYMTvWKn3/GYuKAwAXlMgPhYUR/fmK2IDLWXvKZu9rt/UgN6lvQ7K9wdNUUcvd6",
-#     "refresh_token_expires_in": "5184000"
-#   }
-# }

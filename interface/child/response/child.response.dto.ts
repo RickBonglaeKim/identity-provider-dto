@@ -8,9 +8,7 @@ export const ChildResponseSchema = z.object({
   name: z.string(),
   birthDay: z.string(),
   gender: z.string(),
-  map: z.object({
-    artBonBonStudentId: z.string().nullable(),
-  }),
+  artBonBonStudentId: z.string().nullable(),
 });
 
 export type ChildResponseType = z.infer<typeof ChildResponseSchema>;
@@ -30,6 +28,6 @@ export class ChildResponse extends createZodDto(ChildResponseSchema) {
     this.name = name;
     this.birthDay = birthDay;
     this.gender = gender;
-    this.map.artBonBonStudentId = artBonBonStudentId;
+    this.artBonBonStudentId = artBonBonStudentId;
   }
 }

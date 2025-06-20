@@ -1,11 +1,11 @@
 
 ### success case
-PATCH  {{host}}/child/token/5000000000000009 HTTP/1.1
+PATCH  {{host}}/child/token/5000000000000020 HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer U2FsdGVkX1/XrJLwobQuBa6hphZhJwFHDMZeEExg8r9IBme1ddSZcD895vgPIjmKqtp6ZdTniP+6K+ZnBS5BohlZBQkvGfjQqoO0A+R/IOwVfCw1u+n2Tia2NAe5G17jzZqmTXvkCY7Q2jBC1YeYcAiZViOXgyumcVOmfM856OKdMx4ArxfDm4ETIad5tvBi
+Authorization: Bearer U2FsdGVkX1/aeieW236z0IrLbO2e8x+rmHzx3v/aIZ4D92zNZ7M8UCLZBMpMlFB1BY6RAacO8TcZ428CufFBvzfi2sETZW2pPQDOpQNpWEhYWCJ8jdi/kA0NPt8yo1fkswGEBcKr5OjxX4QMedPix2nvNWPslui8i0M3XCAiv4gVdfMhsDH/xbNeh7X/O4yL
 
 {
-  "name": "아들1",
+  "name": "아들1 - 수정",
   "birthDay": "2010-01-01",
   "gender": "GENDER.FEMALE"
 }

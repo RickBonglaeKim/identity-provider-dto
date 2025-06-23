@@ -2,12 +2,12 @@
 ### success case
 POST {{host}}/signIn HTTP/1.1
 Content-Type: application/json
-passport: huHB_G.XWFVd8dE0.CRzQe7ex0CuQwFu0vF1qapo-KpC8IzDO8FZDEm0-AKJ_kGx
+passport: JSZQNzk~dFbeN27micVxgODbT9igXak~M-tjsbp4W8bsF7N3XdC4sz13QMDeMdpi
 
 {
-  "email": "rick-01@test.com",
+  "email": "rick-1@test.com",
   "password": "test1234"
 }
 
-# https://localhost:3000/signin/U2FsdGVkX18H2eOFJ%2FzPvMOLT95fZSdwkGMYCPuUsY3aKtRMfzS2YmOVzoxTZ3wTDNDnpNzRs%2FtILS%2B3hZdRaxmxDSK%2FoccXfesLvcCdXY8xXNvEBctqMy5pC5Seo9D6D%2Brf08QYz4e7W4P08eROKjSleDSK7NtBUVsLmydyQOGjsjOITSXCqp97znwBVE9nnFSq9TDLwI8grXwoM8MnxR2R3MVzV6dhM84ONl9C7Yc%3D?provider=501
+# https://localhost:3000/signin/U2FsdGVkX19Mh%2Fosqu4%2FZcj8IbSNmuqlF%2FtGyBlgpOBluPzVRNDivhcsC%2B%2FYmlaexw9zDaQYrG6uvS31SaIHJPmgQUvkiZU%2B0Ct38n1PvGWbvZpNWESTBGNfWcVmjZ6O%2F6p0RoIwhesNArxTmfhL4aNNAPSHJ47SFnj3OHNj300vZ2x4OxEzkT87uGijC8CEFh6ov4uzymBjwMqYU1G0RZFEC2v1%2BfZcgmv5oRCKpZ8Hgqnxc14f%2Fsu7cq51tTlk
 # https://system-idp-auth.dev.iscreamarts.com/signin/?provider=101

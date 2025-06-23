@@ -1,5 +1,6 @@
+
 export const CLIENT_COOKIE_NAME = {
-  SERVICE_URL: 'iScreamArts-Provider',
+  PROVIDER: 'iScreamArts-Provider',
 } as const;
 
 export type ClientCookieNames =

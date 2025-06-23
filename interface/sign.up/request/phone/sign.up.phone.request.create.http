@@ -2,7 +2,7 @@
 ### success case
 POST {{host}}/signUp/phone HTTP/1.1
 Content-Type: application/json
-passport: g6wgc~gae1JtOLgiI-aJvlL-73rMks_2JlaW.UkQyJ49CrMsipKDziIqyCtfEgNo
+passport: JrcZi-pAYOjf0AuFfi0xF~8XUoxYtGF5ZwnTQpEBUZNbvL12XVQv3gSdQEsyX3xK
 
 {
   "member": {
@@ -16,13 +16,13 @@ passport: g6wgc~gae1JtOLgiI-aJvlL-73rMks_2JlaW.UkQyJ49CrMsipKDziIqyCtfEgNo
   },
   "memberDetail": {
     "providerId": 101,
-    "name": "rick-14",
+    "name": "rick-1",
     "password": "test1234",
-    "email": "rick-14@test.com"
+    "email": "rick-1@test.com"
   },
   "memberPhone": {
     "countryCallingCode": "82",
-    "phoneNumber": "01000000000"
+    "phoneNumber": "01000000001"
   }
 }
 

@@ -6,6 +6,7 @@ GET {{host}}/oauth/authorize
   &response_type=code
   &scope=id_token name email phone child
   # &state=sldfk3gfy534F
+  &service_url=https://www.naver.com
 
 # https://localhost:3000/signin/provider/kakao?passport=
 # https://system-idp-auth.dev.iscreamarts.com/signin/provider/apple?passport=

@@ -2,7 +2,7 @@
 ### success case with passport
 POST {{host}}/signUp HTTP/1.1
 Content-Type: application/json
-passport: 0okcguNVABjIyPjhOITOhXbCLEYwHYXg11gLqa6R5Zsch9wO5mjV.nwS8goyFB3K
+passport: ThTK2Ohz3BbBkJEz7ksOzvX1Uxzn49Wek3hU-QzumfKDvMMOsjASz678L0J0~xVU
 
 {
   "member": {
@@ -12,11 +12,11 @@ passport: 0okcguNVABjIyPjhOITOhXbCLEYwHYXg11gLqa6R5Zsch9wO5mjV.nwS8goyFB3K
     "isConsentedCollectionAndUsePersonalData": true,
     "isConsentedUseAiSketchService": true,
     "isConsentedOver14Years": true,
-    "isConsentedEventAndInformationReceiving": false,
+    "isConsentedEventAndInformationReceiving": false
   },
   "memberDetail": {
     "providerId": 101,
-    "name": "rick-11",
+    "name": "rick-01",
     "password": "test1234",
     "email": "rick-14@test.com"
   }
@@ -36,7 +36,7 @@ passport: .jYRrzzdxF.AaTFlgGwzSju3mNY8IvyCMK3hro.TboMdii50gQSyD1QVKiiUSueH
     "isConsentedCollectionAndUsePersonalData": false,
     "isConsentedUseAiSketchService": false,
     "isConsentedOver14Years": false,
-    "isConsentedEventAndInformationReceiving": false,
+    "isConsentedEventAndInformationReceiving": false
   },
   "memberDetail": {
     "providerId": 301,
@@ -60,7 +60,7 @@ passport: 2d-S4.eV88n~jwoI0pNR2gPA8MHsVlQWH2XW5OkPwsN2LZVSo-d_TZgabUaoN23o
     "isConsentedCollectionAndUsePersonalData": false,
     "isConsentedUseAiSketchService": false,
     "isConsentedOver14Years": false,
-    "isConsentedEventAndInformationReceiving": false,
+    "isConsentedEventAndInformationReceiving": false
   },
   "memberDetail": {
     "providerId": 402,

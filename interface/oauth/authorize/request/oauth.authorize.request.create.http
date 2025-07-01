@@ -7,7 +7,7 @@ GET {{host}}/oauth/authorize
   &scope=id_token name email phone child
   # &state=sldfk3gfy534F
 
-# https://localhost:3000/signin/provider/kakao?passport=
+# https://localhost:3000/signin/provider/kakao?passport=RVWXCjYTC-zriZzPi.Af3MZpkidvMe7Xkdm3ToEz.i52M_n8fs84hHghf2jE3dbw
 # https://system-idp-auth.dev.iscreamarts.com/signin/provider/apple?passport=
 
 
@@ -20,4 +20,4 @@ GET {{host}}/oauth/authorize
   # &state=sldfk3gfy534F
   &service_url=https://www.naver.com
 
-# https://system-idp-auth.dev.iscreamarts.com/oauth/authorize?client_id=qvpoDniytlVpPRYkbP4O/R80LebUdUB9&redirect_uri=http://www.twinkle-i-nara.com/auth.do&response_type=code&scope=id_token name email phone child&service_url=https://www.naver.com
+# https://system-idp-auth.dev.iscreamarts.com/oauth/authorize?client_id=qvpoDniytlVpPRYkbP4O/R80LebUdUB9&redirect_uri=http://www.twinkle-i-nara.com/auth.do&response_type=code&scope=id_token name email phone child

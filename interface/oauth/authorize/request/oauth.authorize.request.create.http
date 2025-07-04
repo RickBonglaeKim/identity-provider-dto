@@ -7,7 +7,9 @@ GET {{host}}/oauth/authorize
   &scope=id_token name email phone child
   # &state=sldfk3gfy534F
 
-# https://localhost:3000/signin/provider/kakao?passport=RVWXCjYTC-zriZzPi.Af3MZpkidvMe7Xkdm3ToEz.i52M_n8fs84hHghf2jE3dbw
+  # https://localhost:3000/oauth/authorize?client_id=qvpoDniytlVpPRYkbP4O/R80LebUdUB9&redirect_uri=https://localhost:3000/test/callback&response_type=code&scope=id_token name email phone child
+
+# https://localhost:3000/signin/provider/kakao?passport=P9SbWo0liOyEnufj1s~n_FSzHwxDfQEFJvTdQ-R-f_m-k5w2mZIt7EVRj5xH0Vix
 # https://system-idp-auth.dev.iscreamarts.com/signin/provider/apple?passport=
 
 

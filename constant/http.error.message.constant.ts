@@ -7,6 +7,8 @@ const HTTP_ERROR_MESSAGE = {
   VERIFICATION_CODE_NOT_FOUND: 'The verification code was not found',
 
   MEMBER_KEY_NOT_CREATED: 'The member key was not created',
+  MEMBER_WITHDRAWAL_NOT_CREATED: 'The member withdrawal was not created',
+  MEMBER_DATA_NOT_REMOVED: 'All of member data was not removed',
 
   PASSWORD_TOKEN_WAS_NOT_GENERATED: 'The password token was not generated',
   PASSWORD_TOKEN_WAS_NOT_REMOVED: 'The password token was not removed',
